@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*----------------------------------------*/
+
+/* Webfont: Angry-Regular */@font-face {
+  font-family: 'Angry';
+  src: url('./assets/fonts/angry/Angry.woff2') format('woff2'), /* Modern Browsers */
+  url('./assets/fonts/angry/Angry.woff2') format('opentype'); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+
+
+.globalWrapper{
+  max-width: 375px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toTopButton{
+  position: fixed;
+  bottom: -65px;
+  width: 100px;
+  border-radius: 50%;
+  height: 100px;
+  transform: scale(250%);
+  left: 25%;
+}
+.BackToTopButtonSVG{
+  fill:white;
+}
+.NavPageWrapper{
+  background-color: #d5d5d5;
+  width: 100%;
+  background-image: url('./assets/Component 1 (1).png');
+  background-repeat: no-repeat;
+  background-position: 50% 5%;
+}
+.navBarWrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 100px;
+  align-items: center;
+
+}
+.navBarWrapper li{
+  display: inline;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 15px 40px;
+  text-transform: uppercase;
+}
+
+.title{
+  color: white;
+  margin-top: 27px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+
+
+@media (max-width: 768px) {
+  .globalWrapper{
+    max-width: 600px;
+    min-width: 400px;
+  }
+}
+
+@media (max-width: 464px) {
+  .globalWrapper{
+
+
+  }
+}

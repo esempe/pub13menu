@@ -1,0 +1,96 @@
+.wrapper{
+    background-color: #18191B;
+    background-image: url('/src/assets/menu/grillAndMeet/backGround.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    min-width: 100%;
+}
+
+.itemWrapper{
+    border-radius: 10px;
+    display: flex;
+    background-color: #F9FBFA;
+    justify-content: space-between;
+}
+.img img{
+
+    height: 100%;
+}
+.itemsWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.title{
+    text-align: center;
+    color: #F29F3C;
+    background-image: url('/src/assets/menu/grillAndMeet/titleBack.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: auto 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Angry;
+    height: 150px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+    margin-top: 69px;
+    margin-bottom: 56px;
+}
+
+.infoWrapperRight span {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+
+    line-height: 17px;
+}
+.infoWrapperLeft span {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+
+}
+.infoWrapperLeft{
+    background-color: #F29F3C;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #F9FBFA;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 10px 0px 0px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+.infoWrapperRight{
+    width: 100%;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #F9FBFA;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #18191B;
+}
+.name{
+    align-self: flex-start;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.priceAndWeight{
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
