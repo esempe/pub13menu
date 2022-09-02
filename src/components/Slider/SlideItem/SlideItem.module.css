@@ -1,0 +1,14 @@
+.wrapper{
+    border-radius: 22px;
+    padding: 6px;
+    background-color: black;
+    color: white;
+}
+.itemWrapper{
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    color:black;
+    background-color: #F9FBFA;
+    justify-content: space-between;
+}
